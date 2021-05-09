@@ -2,7 +2,7 @@
   "name": "contact",
   "version": "1.0.0",
   "description": "mon fomulaire de contact",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "start": "node -r dotenv/config index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,12 @@
   "homepage": "https://github.com/franckDev21/form-contact.%20git#readme",
   "dependencies": {
     "dotenv": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
   }
 }
