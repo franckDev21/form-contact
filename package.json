@@ -1,0 +1,23 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "mon fomulaire de contact",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckDev21/form-contact.%20git.git"
+  },
+  "author": "FranckDev21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franckDev21/form-contact.%20git/issues"
+  },
+  "homepage": "https://github.com/franckDev21/form-contact.%20git#readme",
+  "dependencies": {
+    "dotenv": "^9.0.0"
+  }
+}
